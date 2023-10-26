@@ -1,0 +1,10 @@
+
+.map-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    max-width: 100%; /* Opcional, para limitar el ancho máximo del mapa */
+  }

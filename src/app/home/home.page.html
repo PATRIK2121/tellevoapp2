@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>TeLLevoApp</ion-title>
+    
+    <ion-buttons slot="end">
+      <ion-button routerLink="/profile">
+        <ion-icon slot="icon-only" name="person"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  
+  <div class="map-container">
+    <iframe
+      width="600"
+      height="450"
+      style="border:0"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCRrNVcUC6_FbAuO88uvsjXUkn95oBfMR8&q=Duoc,Concepcion+WA">
+    </iframe>
+  </div>
+  
+</ion-header>
+
+<ion-card>
+  <ion-card-content>
+    <ion-item>
+      <ion-label position="stacked">Dirección de Recogida</ion-label>
+      <ion-input type="text" placeholder="Dirección de Recogida"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Dirección de Destino</ion-label>
+      <ion-input type="text" placeholder="Dirección de Destino"></ion-input>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+
